@@ -1,0 +1,27 @@
+{
+  "name": "faster-downhill-bot",
+  "version": "1.0.0",
+  "description": "A Slack bot that gives information about Faster Downhill",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interstateone/faster-downhill-bot.git"
+  },
+  "keywords": [
+    "slackbot",
+    "bot",
+    "slack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/interstateone/faster-downhill-bot/issues"
+  },
+  "homepage": "https://github.com/interstateone/faster-downhill-bot#readme",
+  "dependencies": {
+    "botkit": "0.0.5"
+  }
+}
