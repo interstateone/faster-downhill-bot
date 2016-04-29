@@ -35,4 +35,8 @@ controller.hears(['where'], ['direct_message', 'direct_mention'], function (bot,
 		}]
 		bot.reply(message, {attachments: attachments});
 	});	
-})
+});
+
+controller.hears(['.*'], ['direct_message', 'direct_mention'], function (bot, message) {
+	bot.reply(message, "Sorry, I didn't understand that. I blame my creator. :face_with_rolling_eyes:\n My source is here if you'd like to suggest changes: https://github.com/interstateone/faster-downhill-bot");
+});
