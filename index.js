@@ -29,6 +29,7 @@ controller.hears(['where'], ['direct_message', 'direct_mention'], function (bot,
 		var text = 'I\'m' + prefix + location
 		var imageURL = 'https://maps.googleapis.com/maps/api/staticmap?center=' + encodeURIComponent(location) + '&zoom=6&size=600x300&maptype=roadmap&key=' + mapsToken
 		var attachments = [{
+			username: "slug",
 			fallback: text,
 			pretext: ':round_pushpin: ' + text,
 			image_url: imageURL
