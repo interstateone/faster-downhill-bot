@@ -1,3 +1,9 @@
 name: Slug
 description: A Slack bot that gives info about Faster Downhill
 avatar: resources/avatar.png
+config:
+  - name: GOOGLE_MAPS_TOKEN
+    friendly_name: Google Maps Static Map API Token
+    info: Google Maps Static Map API Token
+    global: false
+    type: secret
