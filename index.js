@@ -30,7 +30,7 @@ controller.hears(['where'], ['direct_message', 'direct_mention'], function (bot,
 		var imageURL = 'https://maps.googleapis.com/maps/api/staticmap?center=' + encodeURIComponent(location) + '&zoom=6&size=600x300&maptype=roadmap&key=' + mapsToken
 		var attachments = [{
 			fallback: text,
-			pretext: ':world_map: ' + text,
+			pretext: ':round_pushpin: ' + text,
 			image_url: imageURL
 		}]
 		bot.reply(message, {attachments: attachments});
