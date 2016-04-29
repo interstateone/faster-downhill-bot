@@ -27,7 +27,7 @@ controller.hears(['where'], ['direct_message', 'direct_mention'], function (bot,
 		var location = point.name;
 
 		var text = 'I\'m' + prefix + location
-		var imageURL = 'https://maps.googleapis.com/maps/api/staticmap?center=' + encodeURIComponent(location) + '&zoom=6&size=600x300&maptype=roadmap&key=' + mapsToken
+		var imageURL = 'https://maps.googleapis.com/maps/api/staticmap?center=' + encodeURIComponent(location) + '&zoom=6&size=400x250&maptype=roadmap&key=' + mapsToken
 		var attachments = [{
 			username: "slug",
 			fallback: text,
